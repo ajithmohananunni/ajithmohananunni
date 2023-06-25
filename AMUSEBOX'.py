@@ -67,14 +67,14 @@ def hero():
     banner='figlet AMUSEBOX'
     m=0
     i=1
-    thisway=[1,2,4,6,7,8,15,14,16,17,18]
-    thatway=[3,5,9,10,11,12,13,19,20]
+    thisway=[0,2,4,6,7,8,]
+    thatway=[1,3,5,7,9,]
     numbers=[]
     while(y):
         clear()
         system(banner)
         print("Contact me on telegram @Hacker6363")
-        print("Enter ",newperiod," Parity Price :")
+        print("newperiod," Parity Price :")
         current=input()
         current=int(current)
         #chalo()
@@ -120,13 +120,7 @@ def hero():
         if(y==0):
             y=False
         if (len(numbers)>21):
-            clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
-            print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @Hacker6363")
-            #print(numbers)
-
+           
 
 if(expirydate>today):
     now = datetime.datetime.now()
@@ -140,27 +134,22 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=084
+            period=085
             hero()
     elif(False):
-            period=
+            period=042
             hero()
     elif(False):
-            period=
+            period=043
             hero()
     elif(now>Final and now<Finalend):
-            period=480
+            period=100
             hero()
     else:
         banner='figlet AMUSEBOX'
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
-        print(" Yesterday Server Error , So Play today" )
-        print("2nd Sept 2021, 08:00 PM- 08:30 PM")
-        print("Please play on the given time, and ")
-        print("If you think it is an error contact")
-        print(" admin on telegram @Hacker6363 ")
-
+      
 
 
 else:
