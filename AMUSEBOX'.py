@@ -122,7 +122,6 @@ def hero():
         if (len(numbers)>21):
            
 
-if(expirydate>tomorrow):
     now = datetime.datetime.now()
     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
@@ -134,7 +133,7 @@ if(expirydate>tomorrow):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=205
+            period=215
             hero()
     elif(False):
             period=142
@@ -143,7 +142,7 @@ if(expirydate>tomorrow):
             period=143
             hero()
     elif(now>Final and now<Finalend):
-            period=220
+            period=230
             hero()
     else:
         banner='figlet AMUSEBOX'
