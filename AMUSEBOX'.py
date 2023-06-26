@@ -74,7 +74,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram @Hacker6363")
-        print("newperiod," Parity Price :")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         #chalo()
@@ -134,16 +134,16 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (True):
-            period=085
+            period=205
             hero()
     elif(False):
-            period=042
+            period=142
             hero()
     elif(False):
-            period=043
+            period=143
             hero()
     elif(now>Final and now<Finalend):
-            period=100
+            period=220
             hero()
     else:
         banner='figlet AMUSEBOX'
