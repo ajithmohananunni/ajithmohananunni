@@ -67,8 +67,8 @@ def hero():
     banner='figlet AMUSEBOX'
     m=0
     i=1
-    thisway=[0,2,4,6,8,10,12,14,16,18,20]
-    thatway=[1,3,5,7,9,11,13,15,17,19,21]
+    thisway=[0,2,4,6,8]
+    thatway=[1,3,5,7,9]
     numbers=[]
     while(y):
         clear()
@@ -140,13 +140,13 @@ if(expirydate>today):
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
  
     if (True):
-            period=20230626319
+            period=20230626430
             hero()
     elif(False):
-            period=20230626242
+            period=20230626342
             hero()
     elif(False):
-            period=20230626243
+            period=20230626343
             hero()
     elif(now>Final and now<Finalend):
             period=20230626480
