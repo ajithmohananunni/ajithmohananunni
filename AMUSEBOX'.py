@@ -67,8 +67,8 @@ def hero():
     banner='figlet AMUSEBOX'
     m=0
     i=1
-    thisway=[1,2,4,6,7,8,15,14,16,17,18]
-    thatway=[3,5,9,10,11,12,13,19,20]
+    thisway=[0,2,4,6,8,10,12,14,16,18,20]
+    thatway=[1,3,5,7,9,11,13,15,17,19,21]
     numbers=[]
     while(y):
         clear()
