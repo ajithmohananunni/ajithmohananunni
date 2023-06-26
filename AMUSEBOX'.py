@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
+ 
 from os import system, name
 import itertools
 import threading
@@ -9,12 +9,12 @@ import sys
 import datetime
 from base64 import b64decode,b64encode
 from datetime import date
-
-expirydate = datetime.date(2023,06, 26)
-#expirydate = datetime.date(2023,06, 26)
+ 
+expirydate = datetime.date(2023, 11, 26)
+#expirydate = datetime.date(2023, 8, 30)
 today=date.today()
 def hero():
-
+ 
     def chalo():
         done = False
         #here is the animation
@@ -26,14 +26,14 @@ def hero():
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
-
+ 
         t = threading.Thread(target=animate)
         t.start()
-
+ 
         #long process here
         time.sleep(20)
         done = True
-
+ 
     def chalo1():
         done = False
         #here is the animation
@@ -45,14 +45,14 @@ def hero():
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
-
+ 
         t = threading.Thread(target=animate)
         t.start()
-
+ 
         #long process here
         time.sleep(20)
         done = True
-
+ 
     def clear():
         # for windows
         if name == 'nt':
@@ -60,15 +60,15 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-
+ 
     clear()
     y=1
     newperiod=period
     banner='figlet AMUSEBOX'
     m=0
     i=1
-    thisway=[0,2,4,6,7,8,]
-    thatway=[1,3,5,7,9,]
+    thisway=[1,2,4,6,7,8,15,14,16,17,18]
+    thatway=[3,5,9,10,11,12,13,19,20]
     numbers=[]
     while(y):
         clear()
@@ -120,8 +120,15 @@ def hero():
         if(y==0):
             y=False
         if (len(numbers)>21):
-           
-
+            clear()
+            system('figlet Thank you!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @Hacker6363")
+            #print(numbers)
+ 
+ 
+if(expirydate>today):
     now = datetime.datetime.now()
     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
@@ -131,28 +138,22 @@ def hero():
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
-
+ 
     if (True):
-            period=215
+            period=245
             hero()
     elif(False):
-            period=142
+            period=222
             hero()
     elif(False):
-            period=143
+            period=223
             hero()
     elif(now>Final and now<Finalend):
-            period=230
+            period=300
             hero()
     else:
         banner='figlet AMUSEBOX'
-        print("Hi!! Thanks for buying the hack")
-        print("----------Your play time-----------")
-      
-
-
+ 
 else:
     banner='figlet AMUSEBOX'
     system(banner)
-    print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@Hacker6363")
